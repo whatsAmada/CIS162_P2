@@ -5,6 +5,28 @@
         <title>Mental Health Awareness</title>
         <meta charset= "utf-8"/>
         <link href= "Main.css" rel= "stylesheet" />
+        <style>
+            div.gallery {
+                margin: 10px;
+                border: 1px solid #ccc;
+                float: left;
+                width: 180px;
+            }
+            
+            div.gallery: hover {
+                border: 1px solid #777;
+            }
+            
+            div.gallery img {
+                width: 100%;
+                height: auto;
+            }
+            
+            div.desc {
+                padding: 20px;
+                text-align: center;
+            }
+        </style>
     </head>
     
     <body>
@@ -21,26 +43,48 @@
                 <li><a href="Contact.html">Contact</a></li>
             </ul>
         </nav>
-    
-        <div id="content">
-            <div id="item1">Picture</div>
-            <div id="item2">Words</div>
-            <div id="item3">Picture</div>
-            <div id="item4">Link</div>
-            <div id="item5">More Pictures</div>
-            
-            
+        
+    <article>
+        <h4>Click a picture below to learn more!</h4>
+        <div class="gallery">
+            <a target="_blank" href="3people.jpg">
+                <img src="3people.jpg" alt="Three people holding hands." width="600" height="400">
+            </a>
+            <div class="desc">Friendship
+            </div>   
         </div>
+
+        <div class="gallery">
+            <a target="_blank" href="2people.jpg">
+                <img src="2people.jpg" alt="Three people holding hands." width="600" height="400">
+            </a>
+            <div class="desc">Activities
+            </div> 
+        </div>
+        
+        <div class="gallery">
+            <a target="_blank" href="womanmeditating.jpg">
+                <img src="womanmeditating.jpg" alt="Woman Meditating." width="600" height="400">
+            </a>
+            <div class="desc">Self-Care
+            </div> 
+        </div>    
+        
+        <div class="gallery">
+            <a target="_blank" href="womananddog.jpg">
+                <img src="womananddog.jpg" alt="Woman and a dog." width="600" height="400">
+            </a>
+            <div class="desc">Get outside
+            </div> 
+        </div>
+    </article>
             
         <section>
             <h3>Music goes here.</h3>
         </section>
     
+     <footer>Last updated at:<time datetime= "2022-07-22T19:09">July 22 2022 at 7:09 p.m.</time></footer>
+        
     </body>
-
-    <footer>
-         Last updated at:
-            <time datetime= "2022-07-15T20:39">July 15 2022 at 8:09 p.m.</time>
-    </footer>
 
 </html>
